@@ -19,32 +19,37 @@
                 font-family: 'Nunito', sans-serif;
             }
         </style>
-        <link href="js/app.css" rel="stylesheet">
+        <!-- <link href="js/app.css" rel="stylesheet"> -->
 
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     </head>
     <body>
-        <div class="container">
+        <!-- <div style="background-color: orange;">hahh</div> -->
+        <div class="container-fluid">
+            <!-- <div style="background-color: green;">hahh</div> -->
             <div class="row">
-                <div class="col 4">
-                1 of 2
+                <div class="col-lg-7 col-md-8 col-sm-6 col-xs-12 d-flex align-items-center text-center">
+                        <p class="font-large1 large-font-family">Nepali Gems <br> for Nepali People</p>
                 </div>
-                <div class="col 8">
-                2 of 2
+                <div class="col-lg-5 col-md-4 col-sm-6 col-xs-12">
+                    <div class="float-end">
+                        <img src="/images/girl-with-jewellery.png" alt="Girl with jewellery">
+                        <!-- <img class="col-6 float-right" src="/images/girl-with-jewellery.png" alt="Girl with jewellery"> -->
+                    </div>
                 </div>
             </div>
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col">
                 1 of 3
                 </div>
-                <div class="col">
-                2 of 3
+                <div class="col-6">
+                2 of 3 (wider)
                 </div>
                 <div class="col">
                 3 of 3
                 </div>
-            </div>
+            </div> -->
         </div>
-        <script src="js/app.js" type="text/javascript"></script>
+        <!-- <script src="js/app.js" type="text/javascript"></script> -->
     </body>
 </html>
