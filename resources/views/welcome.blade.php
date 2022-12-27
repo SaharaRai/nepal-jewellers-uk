@@ -20,11 +20,11 @@
         @include('navigation')
         <div class="container-fluid">
             <div class="row">
-                <section class="row">
+                <section class="row margin-padding-right-0">
                     <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12 d-flex align-items-center text-center">
                             <p class="col-12 slogan text-center">Nepali Gems <br> for Nepali People</p>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                         <div class="float-end">
                             <img src="/images/girl-with-jewellery.png" alt="Girl with jewellery">
                         </div>

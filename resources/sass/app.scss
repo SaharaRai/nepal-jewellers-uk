@@ -37,6 +37,7 @@ body {
 
     p {
         color: white;
+        font-size: 10px;
     }
 }
 
@@ -69,4 +70,9 @@ body {
 
 .padding-bottom-lg {
     padding-bottom: 20px;
+}
+
+.margin-padding-right-0 {
+    padding-right: 0 !important;
+    margin-right: 0 !important;
 }
