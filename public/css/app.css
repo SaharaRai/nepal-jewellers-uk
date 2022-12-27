@@ -21134,6 +21134,14 @@ body {
   width: 100%;
 }
 
+.footer {
+  bottom: 0;
+  background-color: rgb(40, 37, 37);
+}
+.footer p {
+  color: white;
+}
+
 .slogan {
   font-size: 50px;
   font-family: Segoe Print, Segoe Script, Verdana, Arial, Tahoma, Serif;

@@ -30,6 +30,16 @@ body {
     width: 100%;
 }
 
+.footer {
+    bottom: 0;
+    // border-top: 1px solid white;
+    background-color: rgb(40, 37, 37);
+
+    p {
+        color: white;
+    }
+}
+
 .slogan {
     font-size: 50px;
     font-family: Segoe Print, Segoe Script, Verdana, Arial, Tahoma, Serif;
