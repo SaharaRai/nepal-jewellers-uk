@@ -1,15 +1,62 @@
 @import '~bootstrap';
 
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+
 body {
     background-color: #ff5757;
     margin: 0 0 0 0 px;
+    font-family: 'Nunito', sans-serif;
+    padding-top: 100px;
 }
 
-.font-large1 {
+@media (min-width: 979px) {
+    body {
+      padding-top: 40px;
+    }
+  }
+
+.alternate-body-color {
+    background-color: rgb(232, 225, 225);
+}
+
+.navbar {
+    background-color: #e7be5a;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.slogan {
     font-size: 50px;
-}
-
-.large-font-family {
     font-family: Segoe Print, Segoe Script, Verdana, Arial, Tahoma, Serif;
 }
 
+/*
+* Fonts
+*/
+
+.font-large1 {
+    font-size: 50px;
+    font-family: Calibri, Arial, Verdana, Tahoma, Serif;
+}
+
+.font-medium1 {
+    font-size: 25px;
+    font-family: Calibri, Arial, Verdana, Tahoma, Serif;
+}
+
+/*
+* Margin and paddings
+*/
+
+.padding-top-lg {
+    padding-top: 15px;
+}
+
+.padding-bottom-lg {
+    padding-bottom: 20px;
+}
