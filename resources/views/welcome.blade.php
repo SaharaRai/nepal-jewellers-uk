@@ -20,41 +20,44 @@
         @include('navigation')
         <div class="container-fluid">
             <div class="row">
-                <section class="row margin-padding-right-0">
+                <section class="row margin-padding-right-0 mt-5">
                     <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12 d-flex align-items-center text-center">
                             <p class="col-12 slogan text-center">Nepali Gems <br> for Nepali People</p>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                         <div class="float-end">
                             <img src="/images/girl-with-jewellery.png" alt="Girl with jewellery">
+                            <!-- <img src="/images/girl-with-jewellery.jpeg" alt="Girl with jewellery"> -->
                         </div>
                     </div>
                 </section>
 
                 <section class="row-fluid padding-top-lg alternate-body-color">
                     <div class="row">
-                        <p class="col-12 font-large1 text-center m-0">Opening soon at</p>
+                        <div class="col-lg-4">
+                            <img class="d-none d-md-none d-lg-inline" src="/images/namaste-woman.png" alt="Girl with jewellery">
+                        </div>
+                        
+                        <!-- <p class="col-12 font-large1 text-center m-0">Opening soon at</p> -->
                         <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 padding-bottom-lg d-flex flex-row justify-content-center align-items-center">
                             <div class="row">
+                                <p class="col-12 font-large1 text-center m-0">Opening soon at</p>
                                 <p class="col-12 pt-2 font-medium1 text-center">38 High Street, Ashford, Kent, TN24 8TE</p>
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2502.7920446029852!2d0.8717388152675026!3d51.14918584465245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47deda448973dac3%3A0xc7bdb37a771e6e2e!2s38%20High%20St%2C%20Ashford%20TN24%208TE!5e0!3m2!1sen!2suk!4v1672098434896!5m2!1sen!2suk" 
                                     width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                                 </iframe>
                             </div>
                         </div>
-    
-                        <div class="col-lg-4">
-                            <img class="d-none d-md-none d-lg-inline" src="/images/namaste-woman.png" alt="Girl with jewellery">
-                        </div>
                     </div>
                 </section>
 
-
                 <section class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                        <img class="img-fluid" src="/images/sitting-down-girl.png" alt="Girl with jewellery">
+                    <div class="col-lg-6 col-md-4 col-sm-6 col-xs-12 ">
+                        <div class="float-end">
+                            <img src="/images/sitting-down-girl.png" alt="Girl sitting down">
+                        </div>
                     </div>
-                    <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12 d-flex flex-row justify-content-center align-items-center">
+                    <div class="col-lg-6 col-md-8 col-sm-6 col-xs-12 d-flex flex-row justify-content-center align-items-center">
                         <div class="row">
                             <p class="col-12 font-large1 text-center m-0">Contact Us</p>
                             <p class="col-12 font-medium1 text-center ps-1"> <i class="fa fa-phone pe-1"></i> 07562692683</p>
