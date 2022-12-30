@@ -38,7 +38,6 @@
                             <img class="d-none d-md-none d-lg-inline" src="/images/namaste-woman.png" alt="Girl with jewellery">
                         </div>
                         
-                        <!-- <p class="col-12 font-large1 text-center m-0">Opening soon at</p> -->
                         <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 padding-bottom-lg d-flex flex-row justify-content-center align-items-center">
                             <div class="row">
                                 <p class="col-12 font-large1 text-center m-0">Opening soon at</p>
